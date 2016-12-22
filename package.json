@@ -1,0 +1,36 @@
+{
+  "name": "imagepool",
+  "version": "1.0.0",
+  "description": "images loader",
+  "main": "src/imagepool.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-umd": "^0.2.0",
+    "pump": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-umd": "^0.2.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpreterite/imagepool.git"
+  },
+  "keywords": [
+    "preload"
+  ],
+  "author": "packy-tang <lpreterite@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpreterite/imagepool/issues"
+  },
+  "homepage": "https://github.com/lpreterite/imagepool#readme"
+}
